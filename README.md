@@ -1,7 +1,7 @@
-#Project Overview
+**Project Overview**
     The project entails a simplified Tetris engine that models a 10-unit wide grid into which Tetris pieces fall under gravity. The pieces come to rest when they come into contact with the grid floor or an already-resting block. When an entire row is filled, it is cleared and pieces above it are dropped down to fill the gap. The grid starts in an empty start for each line of the input file.
 
-#Dependencies
+Dependencies
 There are no dependencies.
 
 #How to Run
