@@ -9,6 +9,7 @@ There are no dependencies.
 How to Run
 
 The Tetris engine can be run by two ways:
+
     - One option is to run the below command line in your terminal after navigating to the folder containing tetris_engine.py
         python3 tetris_engine.py<input.txt>output.txt 
     - Another option is to run the shell script as indicated below in your terminal after navigating to the folder containing tetris_shell.sh
