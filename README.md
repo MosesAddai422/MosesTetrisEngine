@@ -14,7 +14,9 @@ The Tetris engine can be run by two ways:
 Please ensure the python script keyclasses.py which contains important functions for the engine is in the same folder as tetris_engine.py. 
 
 Engine Visualization
-<img width="92" height="202" alt="tetris_snap" src="https://github.com/user-attachments/assets/40aedf71-2f8d-4202-a9c6-809664b353d8" />
+
+<img width="92" height="202" alt="tetris_snap" src="https://github.com/user-attachments/assets/6fb3b581-0e3b-42b4-8ab6-0ea769f1ce11" />
+
 
 The input file consists of a string of commands structured line by line. Each individual command within a given line represents a Tetris piece placement. For example with "Q0" the first letter represents the type of piece to be generated and the integer 0 indicates where on the grid the piece will fall from.
 
