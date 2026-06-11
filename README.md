@@ -26,17 +26,17 @@ The input file consists of a string of commands structured line by line. Each in
 
 The output file consists of a collection of integers which represent the heights of the resulting blocks after each line of the input has been run by the engine.
 
-#Design Architecture
+Design Architecture
 
 I chose to structure the engine by classes to allow for more efficient control of the various operations such as piece generation, piece movement, line clearing, contact checking and height computation. I also separated the classes into two python files to enhance the clarity and organization of the engine code. The first file keyclasses.py primarily handles the generation of the custom pieces while tetris_engine.py handles the operations of the pieces on the engine grid.
 
-#Assumptions
+Assumptions
 
 - The input meets expected guidelines and there is no need to validate the file format
 - The grid width is fixed at 10 units 
 - The stack height does not exceed 100 units for any test case
 
-#Testing
+Testing
 
 I built a unit test to test three key core operations of the engine which include the stack height computation, the custom piece generation, and row clearing. For these operations I tested multiple scenarios and edge cases to ensure the engine could perform its duties in variant circumstances.
 
